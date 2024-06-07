@@ -16,9 +16,9 @@ from interactions import (
     component_callback,
     File,
 )
-from config import OPENAI_API_TOKEN, DISCORD_SERVER_GUILD
+from config import DISCORD_BOT_TOKEN, DISCORD_SERVER_GUILD
 
-TOKEN: str = OPENAI_API_TOKEN
+TOKEN: str = DISCORD_BOT_TOKEN
 GUILD: int = DISCORD_SERVER_GUILD
 
 bot = Client(token=TOKEN, debug_scope=GUILD)
